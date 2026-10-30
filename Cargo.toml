@@ -4,6 +4,14 @@ version = "0.1.0"
 edition = "2021"
 description = "Rust LKM build orchestration for rust_support"
 license = "GPL-2.0-only"
+repository = "https://github.com/raana-labs/raana"
+homepage = "https://github.com/raana-labs/raana"
+documentation = "https://docs.rs/raana"
+readme = "README.md"
+keywords = ["rust", "lkm", "android", "gki", "kernel"]
+categories = ["command-line-utilities", "development-tools"]
+rust-version = "1.82"
+exclude = [".github/"]
 
 [[bin]]
 name = "raana"
