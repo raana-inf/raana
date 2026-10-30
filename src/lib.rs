@@ -889,7 +889,7 @@ fn fetch_prebuilt(paths: &BuildPaths, manifest: &Manifest) -> Result<(), String>
         .sdk
         .artifact_repo
         .clone()
-        .unwrap_or_else(|| "raana-labs/raana".to_string());
+        .unwrap_or_else(|| "raana-inf/raana".to_string());
     let matcher = ArtifactMatch::from_manifest(manifest);
     let version = env!("CARGO_PKG_VERSION");
     let rev = manifest.sdk.rust_support.trim();

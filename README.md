@@ -66,7 +66,7 @@ kunit = false
 kmsdk = "<kmsdk-rev>"
 rust-support = "<rust-support-rev>"
 prebuilt = true
-artifact-repo = "raana-labs/raana"
+artifact-repo = "raana-inf/raana"
 artifact-match = "rev"
 
 [build]
